@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
-  --primary-color:  #DEEFB7;
-  --secondary-color: #66002A;
+  /* --primary-color:  #DEEFB7;
+  --secondary-color: #66002A; */
+  --primary-color: #f7fff7;
+  --secondary-color: #0d1b2a;
+  --link-color: #fff;
 }
 
 body {
@@ -24,6 +27,9 @@ hr {
 
  .container-center {
   text-align: center;
+  max-width: 700px;
+  margin: auto;
+  
 }
 
 /* tech logo */ 
@@ -63,14 +69,18 @@ hr {
   color: var(--secondary-color);
 }
 
+.link-active {
+  font-weight: bolder;
+}
+
 .project-link {
-  color: var(--primary-color);
+  color: var(--link-color);
   font-weight: bolder;
   padding: 0;
 }
 
 .blog-link {
-  color: var(--primary-color);
+  color: var(--link-color);
   font-weight: bolder;
   padding: 0;
 }
@@ -83,6 +93,7 @@ hr {
 .project-section {
   margin-bottom: 2rem;;
 }
+
 /* lists */
 
 .list-non-bullet {
@@ -140,7 +151,7 @@ hr {
 .hero .hero-heading {
   margin-top: 2rem;
   text-align: center;
-  color: #1E555C;
+  color: var(--secondary-color);
 }
 
 .hero .heading-inverted {
