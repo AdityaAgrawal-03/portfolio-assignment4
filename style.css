@@ -85,9 +85,9 @@ hr {
   padding: 0;
 }
 
- .project-link-button:active {
-  transform: scale(0.9);
+.project-link-button {
   font-size: 1rem;
+  transform: scale(0.98);
 }
 
 .project-section {
@@ -112,7 +112,7 @@ hr {
   padding: 0.9rem 1rem;
   color:var(--primary-color);
   border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  
 }
 
 .nav-brand {
@@ -200,15 +200,6 @@ hr {
   margin: 1rem 0;
 }
 
-/* .social-links .list-item-inline {
-  padding: 1rem 0;
-} */
-
- /* .social-links .link  {
-  color: var(--secondary-color);
-  
-} */
-
 .social-profile-logo {
   width: 50px;
   height: 50px;
@@ -217,3 +208,26 @@ hr {
 .footer-final-message {
   text-align: center;
 }
+
+/* media queries */
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  /* .navigation {
+    padding: 5px;
+  } */
+
+  .list-item-inline {
+    display: inline;
+    margin: 0rem;
+  }
+
+ .tech-logo-svg {
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  footer .link {
+    padding: opx;
+  }
+  
+} 
